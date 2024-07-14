@@ -1,0 +1,182 @@
+Relis, Copyright (C) 2023 Naver Corporation, is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 license.
+
+A summary of the CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+The CC BY-NC-SA 4.0 license is located here:
+	https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+
+**************************************************************************
+SEE NOTICES BELOW CONCERNING SOFTWARE FILES (PART 1) AND DATASETS (PART 2):
+**************************************************************************
+
+-----------------------------------------------------------------------
+PART 1: SEE NOTICES BELOW WITH RESPECT TO SOFTWARE FILES:
+-----------------------------------------------------------------------
+
+(A) This software:
+	mmsegmentation/mmseg/apis/inference.py
+	mmsegmentation/mmseg/encoder_decoder.py
+	mmsegmentation/tools/count_params_and_flops.py
+	mmsegmentation/tools/count_fps.py
+that is available here:
+	https://github.com/open-mmlab/mmsegmentation
+under these conditions (Apache License 2.0):
+	https://github.com/open-mmlab/mmsegmentation/blob/master/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	relis/mmsegmentation/mmseg/apis/inference.py
+	relis/mmsegmentation/mmseg/encoder_decoder.py
+	relis/mmsegmentation/tools/count_params_and_flops.py
+	relis/mmsegmentation/tools/count_fps.py
+
+(B) Software available here:
+	https://github.com/facebookresearch/detectron2
+under these conditions (Apache License 2.0):
+	https://github.com/facebookresearch/detectron2/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	relis/detectron2/
+
+(C) Software available here:
+	https://github.com/facebookresearch/Mask2Former
+under these conditions (MIT License):
+	https://github.com/facebookresearch/Mask2Former/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	relis/Mask2Former/
+
+(D) Software available here:
+	https://github.com/naver/oasis/blob/master/run_exps_helpers.py
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/launch_helpers/run_exps_helpers.py
+
+(E) Software available here:
+	https://github.com/torrvision/focal_calibration/blob/main/Metrics/metrics.py
+under these conditions (MIT License):
+	https://github.com/torrvision/focal_calibration/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	relis/uncertainty_helpers.py
+
+(F) Software available here:
+	https://github.com/gpleiss/temperature_scaling/blob/master/temperature_scaling.py
+under these conditions (MIT License):
+	https://github.com/gpleiss/temperature_scaling/blob/master/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	relis/uncertainty_helpers.py
+
+(G) Software available here:
+	https://github.com/naver/oasis/blob/master/dataset/acdc_dataset.py
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/dataset/acdc_dataset.py
+
+(H) Software available here:
+	https://github.com/naver/oasis/blob/master/dataset/cityscapes_dataset.py
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/dataset/cityscapes_dataset.py
+
+(I) Software available here:
+	https://github.com/naver/oasis/blob/master/dataset/idd_dataset.py
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/dataset/idd_dataset.py
+
+(J) Software available here:
+	https://github.com/naver/oasis/tree/master/dataset/cityscapes_list
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/dataset/cityscapes_list
+
+(K) Software available here:
+	https://github.com/naver/oasis/blob/master/main_adapt.py
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/compute_clusters_temp_scaling.py
+	relis/compute_final_metrics.py
+	relis/eval.py
+	relis/eval_calibration_clustering.py 
+	relis/eval_local_ood.py  eval_ood_clustering.py
+	relis/eval_prr.py
+	relis/eval_prr_lts.py
+	relis/eval_calibration.py
+	relis/eval_calibration_lts.py
+	relis/eval_ood.py
+	relis/eval_ood_lts.py
+	relis/eval_prr_clustering.py
+	relis/extract_features.py
+	relis/extract_logits.py
+	relis/generate_augmented_data.py
+
+(L) Software available here:
+	https://github.com/naver/oasis/blob/master/image_helpers.py
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/image_helpers.py
+
+(M) Software available here:
+	https://github.com/uncbiag/LTS/blob/main/code/calibration_models.py
+under these conditions (Apache License 2.0):
+	https://github.com/uncbiag/LTS/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	relis/lts_network.py
+
+(N) Software available here:
+	https://github.com/naver/oasis/blob/master/metrics_helpers.py
+under these conditions (CC BY-NC-SA 4.0):
+	https://github.com/naver/oasis/blob/master/LICENSE-OASIS.txt
+is being redistributed in a modified under the same terms and conditions here:
+	relis/metrics_helpers.py
+
+(O) Software available here:
+	https://stackoverflow.com/questions/22937589/how-to-add-noise-gaussian-salt-and-pepper-etc-to-image-in-python-with-opencv
+under these conditions (CC BY-SA 3.0):
+	https://stackoverflow.com/help/licensing
+	https://creativecommons.org/licenses/by-sa/3.0/
+is being redistributed in a modified under the same terms and conditions here:
+	relis/noise_utils.py
+
+(P) Software available here:
+	 https://github.com/uncbiag/LTS/blob/main/code/Tiramisu_calibration.py
+under these conditions (Apache License 2.0):
+	https://github.com/uncbiag/LTS/blob/main/LICENSE
+is being redistributed in a modified under the same terms and conditions here:
+	relis/train_lts_network.py
+
+(Q) Software available here:
+	https://github.com/ricvolpi/domain-shift-robustness/blob/master/src/transformation_ops.py
+under these conditions (MIT License):
+	https://github.com/ricvolpi/domain-shift-robustness/blob/master/LICENSE.md
+is being redistributed in a modified under the same terms and conditions here:
+	relis/transformation_ops.py
+
+(R) Software available here:
+	https://github.com/kartikgupta-at-anu/spline-calibration/blob/master/cal_metrics/KS.py
+under these conditions (MIT License):
+	https://github.com/kartikgupta-at-anu/spline-calibration/blob/master/LICENSE.md
+is being redistributed in a modified under the same terms and conditions here:
+	relis/uncertainty_helpers.py
+
+
+
+----------------------------------------------------------------
+PART 2: SEE NOTICES BELOW WITH RESPECT TO DATASETS:
+----------------------------------------------------------------
+
+The following datasets, which are not being distributed herewith, were used to train one or more of the models distributed with the software:
+
+(A) ACDC Dataset: see https://acdc.vision.ee.ethz.ch
+made available under the following license: https://acdc.vision.ee.ethz.ch/license
+
+(B) Cityscapes Dataset: see https://www.cityscapes-dataset.com/
+made available under the following license: https://www.cityscapes-dataset.com/license/
+
+(C) IDD Dataset: see https://idd.insaan.iiit.ac.in/
+made available "to researchers and other users": https://insaan.iiit.ac.in/
