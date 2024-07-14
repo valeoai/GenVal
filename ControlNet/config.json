@@ -1,0 +1,8 @@
+{
+    "cityscapes": "../datasets/cityscapes/leftImg8bit/train/**/*leftImg8bit.png",
+    "idd": "../datasets/IDD_Segmentation/leftImg8bit/train/**/*leftImg8bit.png",
+    "acdc_fog": "../datasets/ACDC/rgb_anon/fog/train/**/*.png",
+    "acdc_night": "../datasets/ACDC/rgb_anon/night/train/**/*.png",
+    "acdc_rain": "../datasets/ACDC/rgb_anon/rain/train/**/*.png",
+    "acdc_snow": "../datasets/ACDC/rgb_anon/snow/train/**/*.png"
+}
