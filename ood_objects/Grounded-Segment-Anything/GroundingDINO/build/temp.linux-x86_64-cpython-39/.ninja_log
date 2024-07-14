@@ -1,0 +1,5 @@
+# ninja log v5
+0	498	1720980370886979635	/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/build/temp.linux-x86_64-cpython-39/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/groundingdino/models/GroundingDINO/csrc/cuda_version.o	8c70dbe543848abc
+0	2844	1720980373226979444	/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/build/temp.linux-x86_64-cpython-39/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/groundingdino/models/GroundingDINO/csrc/MsDeformAttn/ms_deform_attn_cpu.o	cc8afc028ede4427
+0	8989	1720980379376978921	/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/build/temp.linux-x86_64-cpython-39/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/groundingdino/models/GroundingDINO/csrc/vision.o	65f8297d73e64541
+0	10773	1720980381156978759	/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/build/temp.linux-x86_64-cpython-39/home/thibaut/GenVal/ood_objects/Grounded-Segment-Anything/GroundingDINO/groundingdino/models/GroundingDINO/csrc/MsDeformAttn/ms_deform_attn_cuda.o	b8e9dc6a674481c2
