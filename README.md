@@ -271,23 +271,24 @@ You can get all OOD metrics needed by launching the scripts ``ood_detection/main
 
 <br/>
 
+# 📖 Citation
+Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follows.
+```
+@inproceedings{loiseau2024reliability,
+  title={Reliability in Semantic Segmentation: Can We Use Synthetic Data?},
+  author={Loiseau, Thibaut and Vu, Tuan-Hung and Chen, Mickael and P{\'e}rez, Patrick and Cord, Matthieu},
+  booktitle={ECCV},
+  year={2024}
+}
+```
 
 # References
 
-```
-@article{loiseau2023reliability,
-title={Reliability in Semantic Segmentation: Can We Use Synthetic Data?},
-author={Loiseau, Thibaut and Vu, Tuan-Hung and Chen, Mickael and P{\'e}rez, Patrick and Cord, Matthieu},
-journal={arXiv preprint arXiv:2312.09231},
-year={2023}
-}
-```
 ```
 @inproceedings{zhang2023adding,
 title={Adding conditional control to text-to-image diffusion models},
 author={Zhang, Lvmin and Rao, Anyi and Agrawala, Maneesh},
 booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-pages={3836--3847},
 year={2023}
 }
 ```
@@ -296,7 +297,6 @@ year={2023}
 author = {de Jorge, Pau and Volpi, Riccardo and Torr, Philip and Gregory, Rogez},
 title = {Reliability in Semantic Segmentation: Are We on the Right Track?},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
 year = {2023}
 }
 ```
