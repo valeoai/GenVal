@@ -43,7 +43,7 @@ Then, create symlink or put the ControlNet checkpoint that you can download [her
 
     ln -s <path_to_checkpoints> checkpoints
 
-You can also find some data generated with our methods [here](https://drive.google.com/drive/folders/1c3HthfWYrw_PEbf0eD2CRYp-xwYmxbLV?usp=sharing). Just put both ``ood_objects`` and ``style_transfer`` folders in an ``images`` folder at the root of the repo. The style-transfer data was created using a ControlNet adapted for SDXL on Cityscapes' segmentation masks.
+You can also find some data generated with our methods [here](https://drive.google.com/drive/folders/1c3HthfWYrw_PEbf0eD2CRYp-xwYmxbLV?usp=sharing). Just put both ``ood_objects`` and ``style_transfer`` folders in an ``images`` folder at the root of the repo. The style-transfer data was created using a ControlNet adapted for SD 1.5 on Cityscapes' segmentation masks.
 
 </details>
 
@@ -195,10 +195,8 @@ First, you need an environment to be able to evaluate all models on the differen
 
     conda create -n openmmlab python=3.9 -y
     conda activate openmmlab
-    pip install torch torchvision
-    pip install -U openmim
-    mim install mmengine
-    mim install mmcv-full
+    pip install torch==1.11.0 torchvision --index-url https://download.pytorch.org/whl/cu115  # For CUDA 11.5
+    pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/torch1.11.0/index.html
     cd relis/mmsegmentation
     pip install -v -e .
     cd ..

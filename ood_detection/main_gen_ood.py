@@ -11,18 +11,16 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name", type=str, default="ANN-R50", help="Which model to evaluate")
     parser.add_argument("--device", type=int, default=0, help="On which GPU to run on")
-    parser.add_argument("--curated", type=int, default=1, help="Using curated data (1) or not (0)")
     args = parser.parse_args()
 
     # Get args
     model_name = args.model_name
     device = args.device
-    curated = args.curated
 
     # Instantiate model and dataset
     root_path = "../images/ood_objects"
     model = Model(model_name=model_name, device=device)
-    gen_ood_dataset = GeneratedOODDataset(root_path, curated=curated)
+    gen_ood_dataset = GeneratedOODDataset(root_path)
 
     # Going through all examples in the dataset
     save_dict = {}
