@@ -193,11 +193,15 @@ The codebase for the evaluation is in the ``relis/`` folder of the repo, which i
 
 First, you need an environment to be able to evaluate all models on the different datasets. The relis repo is based on a modified version of [mmsegmentation](https://github.com/open-mmlab/mmsegmentation/tree/main) library, hence it is important to use the local version of mmsegmentation and not the official one.
 
+    cd relis
     conda create -n openmmlab python=3.9 -y
     conda activate openmmlab
     pip install torch==1.11.0 torchvision --index-url https://download.pytorch.org/whl/cu115  # For CUDA 11.5
-    pip install mmcv-full==1.5.0 -f https://download.openmmlab.com/mmcv/dist/cu115/torch1.11.0/index.html
-    cd relis/mmsegmentation
+    pip install -r requirements.txt
+    pip install -U openmim
+    mim install mmengine
+    mim install mmcv-full==1.5.0
+    cd mmsegmentation
     pip install -v -e .
     cd ..
 
